@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+body {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+    'side1 middle middle middle middle middle side2';
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    height: 100vh;
+    width: 100wh;
+    
+}
+.side1{
+    background-color: white;
+    grid-area: side1;
+}
+.middle{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: middle;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 1rem;
+    border-bottom: solid hsl(220, 14%, 75%) 0.1px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: -10rem;
+    
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+   
+}
+.nav ul li{
+    color: hsl(220, 14%, 75%);
+
+    margin: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+}
+.profile img{
+    margin: 10px;
+}
+.side2{
+    background-color: white;
+    grid-area: side2;
+}
+
+.page{
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 20px;
+}
+.shoes{
+    border-radius: 10px;
+}
+.shoes2{
+    margin-top: 1rem;
+}
+.shoes1 img{
+    border-radius: 10px;
+}
+.shoes2 img{
+    border-radius: 7px;
+}
+.shoes2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cash{
+    margin: 5rem;
+    
+}
+.cash img{
+    color: white;
+}
+.cash ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cash ul li{
+    list-style-type: none;
+}
+.trolley{
+    background-color:hsl(26, 100%, 55%);
+}
+.words p{
+    margin: 15px;
+}
+.words h5{
+    color: hsl(26, 100%, 55%);
+    margin: 10px;
+   
+}
+.words h4{
+    color: hsl(220, 14%, 75%);
+    margin: 10px;
+}
+
